@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&display=swap');
+
+body {
+  font-family: 'Poppins';
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.app-title {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+  color: #ff6f61;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+.form-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#keywordInput {
+  font-family: montserrat;
+  font-weight: 500;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ff6f61;
+  border-radius: 5px;
+  margin-right: 10px;
+  min-width: 250px;
+}
+
+span{
+  padding: 5px 10px;
+  font-size: 12px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6f61;
+  color: #fff;
+  cursor: pointer;
+}
+
+#generateButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6f61;
+  color: #fff;
+  cursor: pointer;
+}
+
+#generateButton:hover {
+  background-color: #e64d44;
+}
+
+.result-container {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#shayariOutput {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ff6f61;
+}
+
+@media only screen and (max-width: 768px) {
+  #keywordInput {
+    min-width: 200px;
+  }
+
+  #generateButton {
+    font-size: 16px;
+  }
+
+  #shayariOutput {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #keywordInput {
+    min-width: 150px;
+  }
+
+  #generateButton {
+    font-size: 14px;
+  }
+
+  #shayariOutput {
+    font-size: 16px;
+  }
+}
